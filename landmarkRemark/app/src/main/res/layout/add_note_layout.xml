@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent"
+android:orientation="vertical">
+    <com.google.android.material.bottomsheet.BottomSheetDragHandleView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note_content"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"/>
+
+    <EditText
+            android:id="@+id/inputNoteContent"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="30dp"
+            android:hint="@string/hint_enter_note"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:drawableLeft="@drawable/ic_desc"
+            android:drawablePadding="8dp"
+            android:paddingLeft="10dp"
+            android:textColorHint="@color/text_color3"
+            android:textColor="@color/text_color2"
+            android:background="@drawable/bg_gradient4"/>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/cancelButton"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:background="@drawable/bg_transparent3"
+                android:text="Cancel"
+                android:textColor="@color/black"
+                />
+
+        <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/postButton"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="35dp"
+                android:text="Post"
+                android:textColor="@color/white"
+                android:background="@drawable/bg_gradient5"/>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

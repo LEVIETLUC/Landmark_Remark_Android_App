@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Landmark Remark</string>
+    <string name="name_logo">Landmark Remark</string>
+    <string name="login">Login</string>
+    <string name="text_not_have_pass">Don\'t have an account?</string>
+    <string name="user_name">User name</string>
+    <string name="hint_username">Enter your username</string>
+    <string name="password">Password</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="hint_confirm_password">Enter confirm password</string>
+    <string name="already_have_an_account">Already have an account ?</string>
+    <string name="google_map_api">AIzaSyD5uPy48ofvg1mNec5aEfJ48cQhqdlO-QY</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="hint_content">Something....</string>
+    <string name="unknown">Unknown</string>
+    <string name="time_default">yyyy-mm-dd hh:mm:ss</string>
+    <string name="hint_enter_note">Enter your note....</string>
+    <string name="note_content">Note Content</string>
+    <string name="type_emoji">Type/Emoji</string>
+    <string name="type">Type</string>
+    <string name="distance_away">%1$.2fkm away</string>
+    <string name="search_result_for">Search result for: %1$s</string>
+</resources>
