@@ -65,7 +65,7 @@ _Build an app that can save and display simple notes at the current location on 
 
 **Solution:** I transmitted the keyword the user entered through the secondary map, then handle search and highlight appropriate notes before displaying it on the screen.
 ## Limitations
--_The biggest limitation is that every time you add a new note or delete a note, you have to clear the map first and then recall the note data._
--_The second limitation is the solution to the third problem above, which is that users will switch to the secondary map and not be able to highlight search results on the main map._
+- _The biggest limitation is that every time you add a new note or delete a note, you have to clear the map first and then recall the note data._
+- _The second limitation is the solution to the third problem above, which is that users will switch to the secondary map and not be able to highlight search results on the main map._
 
 
